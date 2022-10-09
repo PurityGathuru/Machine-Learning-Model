@@ -4,7 +4,7 @@ import pandas as pd
 
 import pickle
 
-pickled_model = pickle.load(open('C:/Users/Administrator/Desktop/flaskintro/bank.pkl','rb'))
+pickled_model = pickle.load(open('bank.pkl','rb'))
 
 def main():
     st.title('Bank Churn')
